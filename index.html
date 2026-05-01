@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insta Quote AI — Sales Knowledge Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Insta Quote AI</h1>
+      <p class="tagline">Sales Knowledge Quiz</p>
+    </header>
+
+    <main id="main">
+      <!-- Start screen -->
+      <section id="start-screen" class="screen">
+        <h2>Welcome</h2>
+        <p>This quiz will test your knowledge of Insta Quote AI — what it does, how it works, pricing, objections, and how to talk about it with potential customers.</p>
+        <ul class="info-list">
+          <li><strong>26 questions</strong> across 11 topic areas</li>
+          <li>Multiple choice — pick the best answer</li>
+          <li>You'll see an explanation after every answer</li>
+          <li>Get a full results breakdown at the end</li>
+        </ul>
+        <button id="start-btn" class="primary-btn">Start Quiz</button>
+      </section>
+
+      <!-- Quiz screen -->
+      <section id="quiz-screen" class="screen hidden">
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+        <div class="quiz-meta">
+          <span id="topic-label" class="topic-label"></span>
+          <span id="question-counter" class="question-counter"></span>
+        </div>
+        <h2 id="question-text" class="question-text"></h2>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback hidden">
+          <div id="feedback-status" class="feedback-status"></div>
+          <p id="feedback-explanation" class="feedback-explanation"></p>
+          <button id="next-btn" class="primary-btn">Next Question</button>
+        </div>
+      </section>
+
+      <!-- Results screen -->
+      <section id="results-screen" class="screen hidden">
+        <h2>Quiz Complete</h2>
+        <div class="score-card">
+          <div class="score-number">
+            <span id="score-correct">0</span><span class="score-divider">/</span><span id="score-total">26</span>
+          </div>
+          <div id="score-percent" class="score-percent">0%</div>
+          <div id="score-message" class="score-message"></div>
+        </div>
+
+        <div class="topic-breakdown">
+          <h3>Performance by Topic</h3>
+          <div id="topic-results"></div>
+        </div>
+
+        <div class="review-section">
+          <h3>Review Your Answers</h3>
+          <div id="review-list"></div>
+        </div>
+
+        <button id="restart-btn" class="primary-btn">Take Quiz Again</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Insta Quote AI — Sales Training</p>
+    </footer>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
