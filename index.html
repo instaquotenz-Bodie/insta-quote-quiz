@@ -3,32 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Insta Quote AI — Sales Knowledge Quiz</title>
+  <title>Insta Quote AI — Sales Training Quizzes</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="app">
     <header class="header">
       <h1>Insta Quote AI</h1>
-      <p class="tagline">Sales Knowledge Quiz</p>
+      <p class="tagline">Sales Training Quizzes</p>
     </header>
 
     <main id="main">
-      <!-- Start screen -->
-      <section id="start-screen" class="screen">
-        <h2>Welcome</h2>
-        <p>This quiz will test your knowledge of Insta Quote AI — what it does, how it works, pricing, objections, and how to talk about it with potential customers.</p>
-        <ul class="info-list">
-          <li><strong>27 questions</strong> across 11 topic areas</li>
-          <li>Multiple choice — pick the best answer</li>
-          <li>You'll see an explanation after every answer</li>
-          <li>Get a full results breakdown at the end</li>
-        </ul>
-        <button id="start-btn" class="primary-btn">Start Quiz</button>
+      <!-- Quiz selection screen -->
+      <section id="select-screen" class="screen">
+        <h2>Choose a quiz</h2>
+        <p class="select-intro">Pick which area you'd like to test yourself on. You can take both as many times as you like.</p>
+
+        <div class="quiz-cards">
+          <button class="quiz-card" data-quiz="sales">
+            <div class="quiz-card-tag">Quiz 1</div>
+            <div class="quiz-card-title">Sales Knowledge</div>
+            <div class="quiz-card-desc">What Insta Quote AI does, how it's set up, pricing, integrations, and handling common objections.</div>
+            <div class="quiz-card-meta"><span id="sales-count">27</span> questions</div>
+          </button>
+
+          <button class="quiz-card" data-quiz="aiBasics">
+            <div class="quiz-card-tag">Quiz 2</div>
+            <div class="quiz-card-title">AI Basics</div>
+            <div class="quiz-card-desc">What AI actually is, how it learns, why it's accurate, and how it fits into the trades.</div>
+            <div class="quiz-card-meta"><span id="ai-count">11</span> questions</div>
+          </button>
+        </div>
       </section>
 
       <!-- Quiz screen -->
       <section id="quiz-screen" class="screen hidden">
+        <button id="back-to-select" class="back-btn">← Back to quizzes</button>
         <div class="progress-bar">
           <div id="progress-fill" class="progress-fill"></div>
         </div>
@@ -47,10 +57,10 @@
 
       <!-- Results screen -->
       <section id="results-screen" class="screen hidden">
-        <h2>Quiz Complete</h2>
+        <h2 id="results-title">Quiz Complete</h2>
         <div class="score-card">
           <div class="score-number">
-            <span id="score-correct">0</span><span class="score-divider">/</span><span id="score-total">27</span>
+            <span id="score-correct">0</span><span class="score-divider">/</span><span id="score-total">0</span>
           </div>
           <div id="score-percent" class="score-percent">0%</div>
           <div id="score-message" class="score-message"></div>
@@ -66,7 +76,8 @@
           <div id="review-list"></div>
         </div>
 
-        <button id="restart-btn" class="primary-btn">Take Quiz Again</button>
+        <button id="restart-btn" class="primary-btn">Take This Quiz Again</button>
+        <button id="choose-another-btn" class="secondary-btn">Choose Another Quiz</button>
       </section>
     </main>
 
