@@ -246,25 +246,25 @@ const quizzes = {
         topic: "Integrations",
         question: "Does Insta Quote AI integrate with a user's suppliers?",
         options: [
-          "Yes, all major suppliers are already connected",
-          "Only Bunnings",
-          "Not yet, but we are working with users to integrate the suppliers they need",
-          "No and it never will"
+          "Only Bunnings — no other suppliers",
+          "Yes — when people sign up we link their materials suppliers to the app for live trade pricing",
+          "No, suppliers are never connected — pricing is always generic",
+          "Only as a paid add-on once you've been a customer for 3 months"
         ],
-        correct: 2,
-        explanation: "We are working with our users to integrate the suppliers they need. Because we are a new app, integrations are still being worked on. If someone buys their materials from Bunnings for example, we would reach out to connect with them."
+        correct: 1,
+        explanation: "When a user signs up we link their materials suppliers to the app so they get live trade pricing on their quotes. If someone buys their materials from Bunnings for example, we connect that during onboarding so the pricing in their quotes reflects what they actually pay."
       },
       {
         topic: "Materials",
         question: "Can Insta Quote AI factor in materials?",
         options: [
           "No, it only covers labour",
-          "Yes, but not to your exact trade prices just yet — supplier integrations are being worked on",
-          "Yes, fully including your exact trade prices",
-          "Only if you enter them manually every time"
+          "Yes — when people sign up we link their materials suppliers to the app for live trade pricing",
+          "Yes, but only using generic average prices that don't reflect your actual trade rates",
+          "Only if you manually enter every material price every time you quote"
         ],
         correct: 1,
-        explanation: "Yes it can, but for now not to your trade prices. We are currently looking to work directly with suppliers to get more accurate pricing. When you sign up we can reach out to the suppliers you use in order to make sure they are a priority in integrating."
+        explanation: "Yes, and to your actual trade prices. When a user signs up we link their materials suppliers to the app for live trade pricing, so the materials in every quote use the rates they really pay rather than generic estimates."
       },
       {
         topic: "Plans",
