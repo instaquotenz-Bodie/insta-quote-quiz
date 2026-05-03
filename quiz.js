@@ -213,7 +213,7 @@ const questions = [
       "We used to offer one but too many people abused it"
     ],
     correct: 0,
-    explanation: "people dont buy cheap power tools because they know they dont wokr this is the type of brand image i want to push with Insta Quote AI is that you pay for what you get which is quite common in the trades and will help us excel out of other companies then we we release the lite version were still getting the smaller companies with a good brand image. also can mention about time going into setting up and refining there quoting structure along with AI costing money to run at the level we do."
+    explanation: "People don't buy cheap power tools because they know they don't work — this is the type of brand image I want to push with Insta Quote AI: that you pay for what you get, which is quite common in the trades and will help us stand out from other companies. When we release the lite version we're still getting the smaller companies with a good brand image. Also worth mentioning: time goes into setting up and refining their quoting structure, along with AI costing money to run at the level we do."
   },
   {
     topic: "Integrations",
