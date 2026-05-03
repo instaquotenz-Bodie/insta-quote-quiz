@@ -220,18 +220,6 @@ const quizzes = {
       },
       {
         topic: "Integrations",
-        question: "Does Insta Quote AI currently integrate with Xero?",
-        options: [
-          "Yes, fully integrated",
-          "Not currently, but it doesn't affect how you use the app — and Xero integration is coming within 1–4 weeks",
-          "No and there are no plans to integrate",
-          "Only on the premium plan"
-        ],
-        correct: 1,
-        explanation: "It just means you may have to slightly change the systems you have in place. In saying this, we are working to have Xero so you can use it through the platform — if you were to sign up now you would be looking at the next 1–4 weeks."
-      },
-      {
-        topic: "Integrations",
         question: "How does Xero work for users?",
         options: [
           "Their quotes through Insta Quote AI get sent to Xero and can be processed from there",
