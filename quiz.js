@@ -232,6 +232,18 @@ const quizzes = {
       },
       {
         topic: "Integrations",
+        question: "How does Xero work for users?",
+        options: [
+          "Their quotes through Insta Quote AI get sent to Xero and can be processed from there",
+          "Users have to manually re-enter every quote into Xero",
+          "Xero replaces Insta Quote AI entirely once connected",
+          "Xero only handles invoicing — quotes can't be linked across the two"
+        ],
+        correct: 0,
+        explanation: "Insta Quote AI quotes can be sent to Xero for users that use the accounting software. Users can still send the quote themselves from Insta Quote AI, or they can send the Insta Quote AI–generated quote via Xero and have it accepted there. Invoices of the Insta Quote AI–produced quote can also be done through Xero."
+      },
+      {
+        topic: "Integrations",
         question: "Can Insta Quote AI be used with a customer's current apps?",
         options: [
           "No, it only works on its own",
