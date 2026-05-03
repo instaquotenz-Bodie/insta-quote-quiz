@@ -204,6 +204,18 @@ const questions = [
     explanation: "AI agencies can overcharge for what is really weak and untrained software promising people something that doesn't work."
   },
   {
+    topic: "Handling objections",
+    question: "Why isn't there a free trial?",
+    options: [
+      "Time goes into helping users build their quoting structure and high quality AI costs money and time",
+      "There is a free trial — 14 days, just ask",
+      "Free trials aren't allowed under our payment provider's rules",
+      "We used to offer one but too many people abused it"
+    ],
+    correct: 0,
+    explanation: "people dont buy cheap power tools because they know they dont wokr this is the type of brand image i want to push with Insta Quote AI is that you pay for what you get which is quite common in the trades and will help us excel out of other companies then we we release the lite version were still getting the smaller companies with a good brand image. also can mention about time going into setting up and refining there quoting structure along with AI costing money to run at the level we do."
+  },
+  {
     topic: "Integrations",
     question: "Does Insta Quote AI currently integrate with Xero?",
     options: [
