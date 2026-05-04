@@ -219,6 +219,18 @@ const quizzes = {
         explanation: "People don't buy cheap power tools because they know they don't work — this is the type of brand image I want to push with Insta Quote AI: that you pay for what you get, which is quite common in the trades and will help us stand out from other companies. When we release the lite version we're still getting the smaller companies with a good brand image. Also worth mentioning: time goes into setting up and refining their quoting structure, along with AI costing money to run at the level we do."
       },
       {
+        topic: "Handling objections",
+        question: "A customer says \"$500 a month is too expensive.\" What's the best response?",
+        options: [
+          "Drop the price by 20% to close the deal",
+          "Agree it's expensive and suggest they use ChatGPT instead",
+          "Reframe it as a quality investment — tradies pay for tools that don't break, and Insta Quote AI is built the same way: a customised setup, premium AI in the background, and ROI on a single won job",
+          "Tell them everyone says that and move on"
+        ],
+        correct: 2,
+        explanation: "Tradies don't buy the cheapest power tools on the shelf — they buy quality ones so they don't break on the job and let them down. Insta Quote AI is the same idea applied to quoting: you pay for what you get. The $500 covers a fully customised setup where we build, test and refine the user's quoting structure, plus the cost of running high-quality AI in the background — that's not cheap to run at the level we do it. On top of that, it's $500 against winning extra work — most tradies make that back on a single won job, and quoting faster means winning the emotional buyer before competitors even respond. Compare it to AI agencies charging $2,000–$10,000 a month for software that doesn't deliver, or what they'd pay an in-house estimator, and $500 for a tool built specifically around their business is genuinely good value."
+      },
+      {
         topic: "Integrations",
         question: "How does Xero work for users?",
         options: [
