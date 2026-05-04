@@ -466,6 +466,228 @@ const quizzes = {
         explanation: "You type or speak a job description, attach photos if you have them, and it gives you a quote. The technical side is handled entirely in the background."
       }
     ]
+  },
+
+  objections: {
+    title: "Sales Objections Quiz",
+    questions: [
+      {
+        topic: "Price",
+        question: "A customer says \"$500 — that's too expensive.\" What's the strongest angle to take?",
+        options: [
+          "Drop the price by 20% to close the deal",
+          "ROI reframe — anchor it to a single won quote, compare to the cost of a quoting staff member, and highlight downstream savings",
+          "Tell them everyone says that and move on",
+          "Suggest they use ChatGPT instead because it's free"
+        ],
+        correct: 1,
+        explanation: "ROI reframe. A single won quote almost certainly covers the $500 — anchor to that one job. Then frame it against the hourly cost of manual quoting, the extra volume Insta Quote AI lets them produce, and downstream savings like fewer errors, fewer callbacks and fewer re-quotes. For perspective: a quantity surveyor in NZ costs $90,000–$120,000 a year, in Australia $115,000–$130,000 — Insta Quote AI delivers a chunk of that work for a fraction. It's quality that justifies the price."
+      },
+      {
+        topic: "Price",
+        question: "A customer asks \"Can I try it before I commit to the full price?\" What's the best approach?",
+        options: [
+          "Offer them a 14-day free trial",
+          "Risk reversal — explain we help set up and adjust their quoting structure for accuracy, which takes 2–3 days, and that's the key reason there isn't a free trial",
+          "Cut the price by 25% as a compromise",
+          "Tell them no and end the call"
+        ],
+        correct: 1,
+        explanation: "Risk reversal. What they're really asking is for proof before paying. Address that head-on: explain that we work directly with them to set up and refine their quoting structure to make sure it's accurate — that takes about 2–3 days of our time, and it's the key reason a free trial doesn't make sense. They're not paying for software they have to figure out alone — they're paying for a customised, working setup from day one."
+      },
+      {
+        topic: "Trust & accuracy",
+        question: "A customer says \"How do I know the AI quotes will be accurate?\" What's the right approach?",
+        options: [
+          "Tell them the AI is always 100% accurate and they don't need to worry",
+          "Suggest they just trust it",
+          "Customisation and testing — it's built around their existing structure, every setup is tested before going live, accuracy improves with use, and they review every quote before sending",
+          "Tell them it pulls from generic industry rates"
+        ],
+        correct: 2,
+        explanation: "Customisation and testing. The system is built around their existing quoting structure — it's not generic AI guessing prices. Every setup goes through testing and tweaking before going live, and accuracy improves over time as it learns their specific job types. They retain full control to review every quote before it goes to a customer. And remember: errors happen in manual quoting too — the comparison isn't \"perfect vs AI\", it's \"AI vs human error rate\"."
+      },
+      {
+        topic: "Trust & accuracy",
+        question: "A customer says \"I don't trust AI with my business.\" What's the best response?",
+        options: [
+          "Tell them they should trust AI because it's the future",
+          "Agree with them and walk away",
+          "Tell them the AI runs entirely on its own with no input",
+          "Control and familiarity — it uses their own pricing and logic, they review every quote before sending, and they already trust calculators and estimating software which is the same idea"
+        ],
+        correct: 3,
+        explanation: "Control and familiarity. It's not a mystery box making decisions — it uses their own pricing and logic, not an industry standard rate. They review every quote before it goes anywhere, so nothing leaves without their sign-off. Reframe it: they already trust calculators, estimating software and spreadsheets to do the maths for them. Insta Quote AI is the same idea, just faster and more flexible."
+      },
+      {
+        topic: "Trust & accuracy",
+        question: "A customer says \"What happens if it quotes wrong and I lose money on a job?\" How do you respond?",
+        options: [
+          "Tell them we'll refund any losses caused by the AI",
+          "Risk management — they set the pricing rules and margins, the AI calculates not guesses, and checking a generated quote is far quicker than building one from scratch",
+          "Suggest they add a 30% buffer to every quote just in case",
+          "Tell them the AI never gets things wrong"
+        ],
+        correct: 1,
+        explanation: "Risk management. They set the pricing rules and the margins — the AI doesn't guess, it calculates from what they've put in. Checking a generated quote takes a fraction of the time it takes to build one from scratch, so a quick review catches anything off. And human quotes have errors too — Insta Quote AI gives them a reviewable, consistent baseline rather than starting fresh every single time."
+      },
+      {
+        topic: "Technical",
+        question: "A customer says \"I'm not tech-savvy — I won't be able to use it.\" What's the right angle?",
+        options: [
+          "Tell them they'll need to take a training course before signing up",
+          "Suggest they hire a tech-savvy assistant to use it on their behalf",
+          "Simplicity and support — designed for tradies and business owners by a tradie, onboarding is handled for them, and the app is as easy to use as ChatGPT",
+          "Agree it might not be the right fit"
+        ],
+        correct: 2,
+        explanation: "Simplicity and support. It's designed for tradies and business owners by a tradie — not for IT people. If they can use a phone, they can use this. Onboarding and setup is handled for them, and the app itself is as easy to use as ChatGPT. Ongoing support means they're never left alone with a problem."
+      },
+      {
+        topic: "Technical",
+        question: "A customer asks \"What software does it integrate with? Mine might not be compatible.\" What's the strongest response?",
+        options: [
+          "Tell them it integrates with absolutely everything from day one",
+          "Tell them they'll need to switch to our preferred apps",
+          "Tell them integrations don't matter",
+          "Integration flexibility — clarify what they're using, explain we're working on a wide variety of integrations across suppliers, job management and accounting software, and worst case the quote drops into whatever workflow they already have"
+        ],
+        correct: 3,
+        explanation: "Integration flexibility. First clarify what they're currently using — then explain we're working on a wide variety of integrations across suppliers, job management apps and accounting software. Even standalone, Insta Quote AI saves significant time. Worst case: the generated quote drops straight into whatever workflow they already have, and they can put job numbers into their template themselves."
+      },
+      {
+        topic: "Change & adoption",
+        question: "A customer says \"My team won't want to change how they do things.\" How should you respond?",
+        options: [
+          "Tell them to force the team to adopt it",
+          "Change management — it doesn't replace anyone's judgement, adoption is faster once they see the first quote produced, and you can start with one person or one job type to prove value internally",
+          "Suggest they fire anyone who resists",
+          "Walk away — team buy-in is too risky"
+        ],
+        correct: 1,
+        explanation: "Change management. It doesn't replace anyone's judgement — it just handles the repetitive parts of quoting. Adoption is faster than people expect once they see the first quote come out. The easiest way in is to start with one person or one job type, prove the value internally, then roll it out wider."
+      },
+      {
+        topic: "Change & adoption",
+        question: "A customer says \"We've tried software before and it didn't stick.\" What's the right approach?",
+        options: [
+          "Tell them all software is essentially the same",
+          "Past experience reframe — acknowledge the frustration, differentiate Insta Quote AI on trades knowledge and support, ask what specifically failed last time and address that directly",
+          "Tell them this one will work because we say so",
+          "Drop the price to win them over"
+        ],
+        correct: 1,
+        explanation: "Past experience reframe. Acknowledge the frustration — this is a common and valid concern. Then differentiate: Insta Quote AI is built with deep trades knowledge and proper support behind it, not a generic SaaS dropped on them with no help. Ask what specifically failed before — complexity, lack of support, poor fit — and address that directly. The onboarding and setup process is designed to avoid the cliff edge that kills adoption."
+      },
+      {
+        topic: "Change & adoption",
+        question: "A customer says \"I need to talk to my business partner / accountant first.\" What does that mean and how do you respond?",
+        options: [
+          "Walk away — it means they're not interested",
+          "Tell them they should make the decision on their own",
+          "Stakeholder alignment — welcome it as a buying signal, offer to be on the call or send a one-page summary, and ask what questions the partner is likely to raise so you can address them in advance",
+          "Push hard for a yes on the spot before they leave"
+        ],
+        correct: 2,
+        explanation: "Stakeholder alignment. This is a buying signal, not a block — welcome it. Offer to jump on a call with them and the partner, or provide a one-page summary they can share. Ask up front what questions the partner is likely to raise (price, contract, integrations) and address them now so the follow-up conversation is as easy as possible."
+      },
+      {
+        topic: "Time & effort",
+        question: "A customer says \"I don't have time to set it up right now.\" What's the best response?",
+        options: [
+          "Tell them to come back in 6 months",
+          "Effort minimisation — setup is handled for them so their time investment is minimal, and doing nothing has a cost too because every manually-written quote this week is time they could have saved",
+          "Suggest they hire a consultant first to evaluate",
+          "Agree and end the call"
+        ],
+        correct: 1,
+        explanation: "Effort minimisation. Setup is handled by us — their time investment to get started is minimal. Doing nothing has a cost too: every quote they write manually this week is time they could have saved. The longer they wait, the more hours pile up on manual quoting that Insta Quote AI would have handled in minutes."
+      },
+      {
+        topic: "Time & effort",
+        question: "A customer says \"Our quoting volume is low — we don't quote that often.\" How do you respond?",
+        options: [
+          "Agree and recommend they don't subscribe",
+          "Tell them quoting volume isn't relevant",
+          "Tell them it only works for high-volume businesses",
+          "Per-quote value — lower volume usually means each quote is higher-value and takes longer, Insta Quote AI cuts that by at least 50%, and even saving 30 minutes on 2 quotes a week is over 50 hours a year"
+        ],
+        correct: 3,
+        explanation: "Per-quote value. Lower volume usually means each quote is higher-value and takes more time — Insta Quote AI cuts that by at least 50% and handles the complexity of the task. Time saved per quote is the same regardless of how many they do. Even saving 30 minutes on 2 quotes a week is over 50 hours a year — and a single won job from quoting faster usually covers the cost."
+      },
+      {
+        topic: "Time & effort",
+        question: "A customer says \"I'm in a busy period right now — can I come back to this later?\" How do you respond?",
+        options: [
+          "Apologise and end the call",
+          "Tell them yes, definitely come back later",
+          "Urgency and timing — busy periods are exactly when this pays off most, setup is minimal and doesn't disrupt their current workflow, and the cost of delay is real",
+          "Cut the price as compensation for catching them at a bad time"
+        ],
+        correct: 2,
+        explanation: "Urgency and timing. Busy periods are exactly when Insta Quote AI pays off the most — they're losing the most time right now, on the quotes they don't have time to write. Setup is minimal and doesn't disrupt their current workflow. Every week they wait is more hours spent quoting manually that they won't get back."
+      },
+      {
+        topic: "Fit & need",
+        question: "A customer says \"My jobs are all different — they can't be templated.\" What's the right angle?",
+        options: [
+          "Tell them yes, every job is forced into the same template",
+          "Tell them they should standardise their jobs to fit the system",
+          "Walk away — they're not a fit",
+          "Flexibility and structure — the AI handles the repeatable parts while they apply judgement to the variables, it treats each job individually rather than copy-pasting old quotes, and accuracy comes from them pairing with the AI"
+        ],
+        correct: 3,
+        explanation: "Flexibility and structure. The AI handles the repeatable parts of quoting; they still apply their own judgement to the variables. It takes each job as its own job and applies their quoting structure to it — it's not \"I've done one like this before, copy that down\". It's not a rigid one-size-fits-all template. Accuracy comes from them pairing with the AI, not the AI working alone."
+      },
+      {
+        topic: "Fit & need",
+        question: "A customer says \"We already have someone who does quoting — why would I need this?\" What do you say?",
+        options: [
+          "Tell them to fire that person",
+          "Augmentation not replacement — it makes their quoter faster and more consistent, freed-up time goes to higher-value work, and consistent quotes reduce disputes and rework",
+          "Agree they don't need it",
+          "Tell them the AI is better than any human quoter"
+        ],
+        correct: 1,
+        explanation: "Augmentation not replacement. This isn't about replacing their quoting person — it's about making them faster and more consistent. The freed-up time goes into higher-value work like sales, follow-up and supervision. And consistency across quotes — same prices, same format, no matter who built it — reduces disputes and rework down the line."
+      },
+      {
+        topic: "Fit & need",
+        question: "A customer says \"My industry is very specialised — this probably isn't built for us.\" How do you respond?",
+        options: [
+          "Agree it probably won't work for them",
+          "Tell them their industry is the same as everyone else's",
+          "Specialisation capability — it's built around their structure not a generic industry template, specialisation is an argument for the tool not against it, and you can map their quoting process directly to the system",
+          "Suggest they wait until we build a special version"
+        ],
+        correct: 2,
+        explanation: "Specialisation capability. It's built around their structure, not a generic industry template — that's exactly why specialisation isn't a problem. Specialisation is actually an argument for it: inconsistent manual quoting is worse in complex industries, not better. Ask them to walk through their quoting process and you can show directly how it maps to the system."
+      },
+      {
+        topic: "General",
+        question: "A prospect asks you to send them more information instead of committing on the call. What's the right move?",
+        options: [
+          "Send them a long PDF and wait for them to reply",
+          "Refuse to send anything",
+          "Tell them you'll get information through to them via the website or a one-pager — or, preferably, redirect them to another call where you can go into more depth",
+          "Drop the price to keep them on the call"
+        ],
+        correct: 2,
+        explanation: "Don't lose them in an email thread. Either tell them you'll get the information through to them via a website link or a one-pager, or — preferably — redirect them to another call where you can go into more depth in person and answer their specific questions live."
+      },
+      {
+        topic: "General",
+        question: "A customer asks how long onboarding takes. What do you tell them?",
+        options: [
+          "Same day, always",
+          "2 weeks minimum",
+          "1–2 hours",
+          "2–3 days, depending on how quickly they get us their details and how quickly we onboard their profile to the system"
+        ],
+        correct: 3,
+        explanation: "Onboarding takes about 2–3 days. The exact time depends on how quickly the customer gets their details over to us and how quickly we onboard their profile into the system. We stay in touch throughout to keep things moving."
+      }
+    ]
   }
 };
 
@@ -506,6 +728,7 @@ const letters = ["A", "B", "C", "D", "E"];
 
 document.getElementById("sales-count").textContent = quizzes.sales.questions.length;
 document.getElementById("ai-count").textContent = quizzes.aiBasics.questions.length;
+document.getElementById("objections-count").textContent = quizzes.objections.questions.length;
 
 function showScreen(screen) {
   [selectScreen, quizScreen, resultsScreen].forEach(s => s.classList.add("hidden"));
